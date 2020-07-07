@@ -1,3 +1,3 @@
 //index.js
 export { default as Home } from './Home';
-export { default as ChatBot } from './Chat';
+export { default as Chat } from './Chat';
