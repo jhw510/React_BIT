@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Counter from "./components/oop/Counter"
+import Hello from "./components/oop/Hello";
+import HomePage from "./pages/home/HomePage";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );

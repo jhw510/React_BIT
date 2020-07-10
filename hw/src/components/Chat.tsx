@@ -1,6 +1,7 @@
 //ChatBot.js
 import React,{Component} from 'react';
 import ChatBot from 'react-simple-chatbot';
+
 class Chat extends Component{
     // React의 props와 state설정
    // constructor(props) {
