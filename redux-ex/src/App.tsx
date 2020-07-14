@@ -1,16 +1,12 @@
 import React from 'react';
-
 import './App.css';
-import {} from './'
-import {CountDown} from './components/'
-function App() {
-  return (
-    <div>
-    <CountDown count={0} tick={1000} reset={10}/>
+import {Member} from './pages'
+import Counter from "./pages/Counter";
+
+const App = () => <div className="App">
+  <Member/>
+</div>
 
 
-    </div>
-  );
-}
 
 export default App;
