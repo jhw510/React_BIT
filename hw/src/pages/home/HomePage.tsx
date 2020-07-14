@@ -5,6 +5,7 @@ class HomePage extends Component<any, any>{
 
     public render() {
         return <div>
+            <Navigator/>
     <AdvancedCounter/>
         </div>
     }
