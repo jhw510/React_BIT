@@ -1,0 +1,34 @@
+{
+  "user": [
+    {
+      "userid": "hong",
+      "password": "888-555-1212",
+      "name": "홍길동"
+    },
+    {
+      "userid": "kim",
+      "password": "877-123-1212",
+      "name": "김유신"
+    },
+    {
+      "userid": "you",
+      "password": "877-123-1212",
+      "name": "유관순"
+    },
+    {
+      "userid": "shin",
+      "password": "888-555-1212",
+      "name": "신사임당"
+    },
+    {
+      "userid": "kang",
+      "password": "877-123-1212",
+      "name": "강감찬"
+    },
+    {
+      "userid": "jane",
+      "password": "877-123-1212",
+      "name": "제인"
+    }
+  ]
+}

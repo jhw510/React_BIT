@@ -1,0 +1,26 @@
+// http://www.objgen.com/json?demo=true
+
+  user[0]
+    userid s = hong
+    password s = 888-555-1212
+    name = 홍길동
+  user[1]
+    userid s = kim
+    password s = 877-123-1212
+    name = 김유신
+  user[2]
+    userid s = you
+    password s = 877-123-1212
+    name = 유관순
+  user[3]
+    userid s = shin
+    password s = 888-555-1212
+    name = 신사임당
+  user[4]
+    userid s = kang
+    password s = 877-123-1212
+    name = 강감찬
+  user[5]
+    userid s = jane
+    password s = 877-123-1212
+    name = 제인

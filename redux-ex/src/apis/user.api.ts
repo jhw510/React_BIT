@@ -1,5 +1,7 @@
+import '../data/initialState.json'
+
 const userService ={
-    login
+    loginService
 }
 function handleResponse(response) {
     return response.text()
@@ -13,19 +15,22 @@ function handleResponse(response) {
                     response.statusText
                 return Promise.reject(error)
             }
+            return data
         })
 }
-function login(userid,password) {
+function loginService(userid,password) {
+    alert('api 로그인서비스 진입')
     const requestOptions = {
         method:'POST',
         headers:{'Content-Type':'application/json'},
         body:JSON.stringify({userid,password})
     }
     return fetch('/users/login',requestOptions)
-        .then()
+        .then(handleResponse)
         .then(user =>{
-            sessionStorage.setItem('userid',JSON.stringify(user))
-            return user
+            alert(`json읽기성공`)
+            localStorage.setItem('userid',JSON.stringify(user))
+
         })
 }
 export default userService;
