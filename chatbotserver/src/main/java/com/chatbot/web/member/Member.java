@@ -1,5 +1,7 @@
 package com.chatbot.web.member;
+
 import lombok.*;
+
 import javax.persistence.*;
 
 @Entity
@@ -8,11 +10,11 @@ import javax.persistence.*;
 @ToString
 @NoArgsConstructor
 @Table(name = "member",
-uniqueConstraints = {@UniqueConstraint(columnNames = {"userid"})})
+        uniqueConstraints = {@UniqueConstraint(columnNames = "userid")})
 public class Member {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int seq;
+    private Long id;
 
     @Column(length = 20)
     private String userid;
