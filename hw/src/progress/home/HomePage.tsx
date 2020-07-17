@@ -1,12 +1,12 @@
 import React,{Component} from "react";
-import Navigator from  "../../components/common/Navigator"
-import AdvancedCounter from '../../components/fp/AdvancedCounter'
+import Navigator from "../../common/Navigator"
+
 class HomePage extends Component<any, any>{
 
     public render() {
         return <div>
             <Navigator/>
-    <AdvancedCounter/>
+
         </div>
     }
 }

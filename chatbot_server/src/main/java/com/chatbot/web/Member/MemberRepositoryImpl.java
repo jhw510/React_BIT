@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 @Repository
 interface MemberRepository extends JpaRepository<Member, Long>, MemberService{}
+
 interface MemberService{
     public List<Object> findAllOrderByJoinDate();
 }

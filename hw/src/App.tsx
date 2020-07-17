@@ -1,10 +1,10 @@
 import React, {Component} from "react";
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { Chat,Counter, Hello, Clock, Kitty,AdvancedCounter} from "./components";
+import { Chat,Counter, Hello, Clock, Kitty,AdvancedCounter} from "./_components";
 
 import {Provider} from 'react-redux';
 import {} from 'connected-react-router';
-import {HomePage} from "./pages";
+import HomePage from "./progress/home/HomePage";
 import './App.css';
 
 
