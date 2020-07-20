@@ -4,7 +4,7 @@ import { Chat,Counter, Hello, Clock, Kitty,AdvancedCounter} from "./_components"
 
 import {Provider} from 'react-redux';
 import {} from 'connected-react-router';
-import HomePage from "./progress/home/HomePage";
+import HomePage from "./home/HomePage";
 import './App.css';
 
 
