@@ -9,9 +9,11 @@ import 'mdbreact/dist/css/mdb.css';
 import Signin from './components/member/Sign'
 import SigninTest from './components/member/SigninTest'
 import HideTest from './components/HideTest'
+import CounterContainer from "./containers/CounterContainer";
 const App = () =>
+
     <div className="App">
-      <HideTest/>
+     <CounterContainer/>
     </div>
 
 
